@@ -1,0 +1,107 @@
+DetailedActivity
+id
+long	The unique identifier of the activity
+external_id
+string	The identifier provided at upload time
+upload_id
+long	The identifier of the upload that resulted in this activity
+athlete
+MetaAthlete	An instance of MetaAthlete.
+name
+string	The name of the activity
+distance
+float	The activity's distance, in meters
+moving_time
+integer	The activity's moving time, in seconds
+elapsed_time
+integer	The activity's elapsed time, in seconds
+total_elevation_gain
+float	The activity's total elevation gain.
+elev_high
+float	The activity's highest elevation, in meters
+elev_low
+float	The activity's lowest elevation, in meters
+type
+ActivityType	Deprecated. Prefer to use sport_type
+sport_type
+SportType	An instance of SportType.
+start_date
+DateTime	The time at which the activity was started.
+start_date_local
+DateTime	The time at which the activity was started in the local timezone.
+timezone
+string	The timezone of the activity
+start_latlng
+LatLng	An instance of LatLng.
+end_latlng
+LatLng	An instance of LatLng.
+achievement_count
+integer	The number of achievements gained during this activity
+kudos_count
+integer	The number of kudos given for this activity
+comment_count
+integer	The number of comments for this activity
+athlete_count
+integer	The number of athletes for taking part in a group activity
+photo_count
+integer	The number of Instagram photos for this activity
+total_photo_count
+integer	The number of Instagram and Strava photos for this activity
+map
+PolylineMap	An instance of PolylineMap.
+trainer
+boolean	Whether this activity was recorded on a training machine
+commute
+boolean	Whether this activity is a commute
+manual
+boolean	Whether this activity was created manually
+private
+boolean	Whether this activity is private
+flagged
+boolean	Whether this activity is flagged
+workout_type
+integer	The activity's workout type
+upload_id_str
+string	The unique identifier of the upload in string format
+average_speed
+float	The activity's average speed, in meters per second
+max_speed
+float	The activity's max speed, in meters per second
+has_kudoed
+boolean	Whether the logged-in athlete has kudoed this activity
+hide_from_home
+boolean	Whether the activity is muted
+gear_id
+string	The id of the gear for the activity
+kilojoules
+float	The total work done in kilojoules during this activity. Rides only
+average_watts
+float	Average power output in watts during this activity. Rides only
+device_watts
+boolean	Whether the watts are from a power meter, false if estimated
+max_watts
+integer	Rides with power meter data only
+weighted_average_watts
+integer	Similar to Normalized Power. Rides with power meter data only
+description
+string	The description of the activity
+photos
+PhotosSummary	An instance of PhotosSummary.
+gear
+SummaryGear	An instance of SummaryGear.
+calories
+float	The number of kilocalories consumed during this activity
+segment_efforts
+DetailedSegmentEffort	A collection of DetailedSegmentEffort objects.
+device_name
+string	The name of the device used to record the activity
+embed_token
+string	The token used to embed a Strava activity
+splits_metric
+Split	The splits of this activity in metric units (for runs)
+splits_standard
+Split	The splits of this activity in imperial units (for runs)
+laps
+Lap	A collection of Lap objects.
+best_efforts
+DetailedSegmentEffort	A collection of DetailedSegmentEffort objects.
