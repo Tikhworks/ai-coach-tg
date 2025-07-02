@@ -1,0 +1,7 @@
+aiogram
+google-generativeai
+stravalib
+cryptography
+aiohttp
+requests
+garminconnect
